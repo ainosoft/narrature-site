@@ -1,0 +1,85 @@
+body {
+    background-color: #E5FCC2;
+}
+
+img {
+    width: 78%;
+}
+
+.narrature {
+    margin-left: 24rem;
+    margin-top: -12rem;
+}
+
+p {
+    margin-top: -28rem;
+    margin-left: 12rem;
+    font-family: 'poppins';
+    font-size: 2rem;
+    color: #808080c2;
+}
+
+a {
+    margin-left: 60rem;
+    font-size: 2rem;
+    font-family: 'poppins';
+    color: #8d8c8cad;
+}
+
+hr {
+    width: 78rem;
+    margin-left: -4rem;
+    margin-top: -3rem;
+    color: gray;
+}
+
+
+/* @media only screen and (min-width: 834px) and (max-width: 1194px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    img {
+        width: 64%;
+        margin-left: -14rem;
+        margin-top: 10rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-top: -12.5rem;
+        margin-left: -10rem;
+    }
+
+    hr {
+        width: 33rem;
+        margin-left: -15rem;
+        margin-top: -2rem;
+    }
+
+    a {
+        margin-left: 10rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 834px) and (max-width: 1194px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    img {
+        width: 142%;
+        margin-left: -14rem;
+        margin-top: 10rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-top: -12.5rem;
+        margin-left: -10rem;
+    }
+
+    hr {
+        width: 33rem;
+        margin-left: -16rem;
+        margin-top: -2rem;
+    }
+
+    a {
+        margin-left: 10rem;
+        font-size: 1rem;
+    }
+} */
