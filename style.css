@@ -1,88 +1,192 @@
-body {
-    background-color: #E5FCC2;
-}
+ * {
+     box-sizing: border-box;
+ }
 
-img {
-    width: 50%;
-}
+ body {
+     background-color: #E5FCC2;
+     font-size       : 2vw;
+     font-family     : 'poppins';
+ }
 
-.narrature {
-    padding: 100px;
-    width: 100%;
-    height: 100%;
-    margin-left: 24rem;
-    margin-top: -12rem;
-}
+ html,
+ body {
+     overflow-x: hidden;
+     overflow-y: auto;
+ }
 
-p {
-    margin-top: -24rem;
-    margin-left: 6rem;
-    font-family: 'poppins';
-    font-size: 2rem;
-    color: #808080c2;
-}
+ img {
+     display     : block;
+     width       : 50%;
+     height      : 13vh;
+     margin-top  : 20%;
+     margin-left : auto;
+     margin-right: auto;
 
-a {
-    margin-left: 57rem;
-    font-size: 2rem;
-    font-family: 'poppins';
-    color: #8d8c8cad;
-}
+ }
 
-hr {
-    width: 78rem;
-    margin-left: -8rem;
-    margin-top: -3rem;
-    color: gray;
-}
+ hr {
+     width      : 75rem;
+     align-items: center;
+     margin-top : 30px;
+     color      : gray;
+ }
+
+ p {
+     text-align: center;
+     color     : #808080c2;
+     font-size : 3vw;
+ }
+
+ .text {
+     text-align: center;
+     color     : #8d8c8cad;
+     font-size : 2vw;
+ }
 
 
-@media only screen and (min-width: 834px) and (max-width: 1194px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-    img {
-        width: 50%;
-        margin-left: -14.5rem;
-        margin-top: 10rem;
-    }
+ @media only screen and (min-width: 320px) and (max-width: 480px) {
+     img {
+         width     : 90%;
+         margin-top: 50%;
+     }
 
-    p {
-        font-size: 1rem;
-        margin-top: -14.5rem;
-        margin-left: -8rem;
-    }
+     hr {
+         width: 100%;
+     }
 
-    hr {
-        width: 37rem;
-        margin-left: -14rem;
-        margin-top: -2rem;
-    }
+     p {
+         font-size: 2.5rem;
+         width    : 100%;
+     }
 
-    a {
-        margin-left: 17rem;
-        font-size: 1rem;
-    }
-}
+     .text {
+         font-size: 2rem;
+     }
+ }
 
-@media only screen and (min-width: 834px) and (max-width: 1194px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-    img {
-        width: 67%;
-        margin-left: -22rem;
-        margin-top: 16rem;
-    }
 
-    p {
-        font-size: 1rem;
-        margin-top: -13.5rem;
-        margin-left: -17rem;
-    }
+ /* Responsiveness for ipad portrait*/
+ @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+     img {
+         width     : 90%;
+         margin-top: 40%;
+     }
 
-    hr {
-        width: 37rem;
-        margin-left: -23rem;
-        margin-top: -2rem;
-    }
+     hr {
+         width: 100%;
+     }
 
-    a {
-        margin-left: 9rem;
-        font-size: 1rem;
-    }
-}
+     p {
+         font-size: 3rem;
+         width    : 100%;
+     }
+
+     .text {
+         font-size: 2rem;
+     }
+ }
+
+ /* Responsiveness for ipad landscape*/
+ @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape) {
+     img {
+         width     : 70%;
+         margin-top: 20%;
+     }
+
+     hr {
+         width: 80%;
+     }
+
+     p {
+         font-size: 3.5rem;
+         width    : 100%;
+     }
+
+     .text {
+         font-size: 2.5rem;
+     }
+ }
+
+ /* Responsiveness for ipad pro portrait*/
+ @media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+     img {
+         width     : 70%;
+         margin-top: 20%;
+     }
+
+     hr {
+         width: 80%;
+     }
+
+     p {
+         font-size: 3.5rem;
+         width    : 100%;
+     }
+
+     .text {
+         font-size: 2.5rem;
+     }
+ }
+
+ /* Responsiveness for ipad pro landscape*/
+ @media only screen and (max-width: 1366px) and (min-width: 1024px) and (orientation: landscape) {
+     img {
+         width     : 70%;
+         margin-top: 20%;
+     }
+
+     hr {
+         width: 80%;
+     }
+
+     p {
+         font-size: 3.5rem;
+         width    : 100%;
+     }
+
+     .text {
+         font-size: 2.5rem;
+     }
+ }
+
+ /* Responsiveness for ipad pro 11 inch 3rd generation portrait*/
+ @media only screen and (min-width: 834px) and (max-width: 1194px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+     img {
+         width     : 70%;
+         margin-top: 30%;
+     }
+
+     hr {
+         width: 80%;
+     }
+
+     p {
+         font-size: 3.5rem;
+         width    : 100%;
+     }
+
+     .text {
+         font-size: 2.5rem;
+     }
+ }
+
+ /* Responsiveness for ipad pro 11 inch 3rd generation landscape*/
+ @media only screen and (max-width: 1194px) and (min-width: 834px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+     img {
+         width     : 70%;
+         margin-top: 20%;
+     }
+
+     hr {
+         width: 80%;
+     }
+
+     p {
+         font-size: 3.5rem;
+         width    : 100%;
+     }
+
+     .text {
+         font-size: 2.5rem;
+     }
+ }
