@@ -84,7 +84,12 @@ footer {
     font-size: 1.3em;
   }
 }
-
+/*ipdad11 potrait*/
+@media only screen and (min-width: 820px) and (max-width: 834px) and (orientation: portrait) {
+  .foot {
+    bottom: 19rem;;
+  }
+}
 /*ipad 11 landscape*/
 @media only screen and (max-width: 1194px) and (min-width: 834px) and (orientation: landscape) {
   img {
@@ -99,7 +104,19 @@ footer {
     width: 34vw;
   }
 }
-
+@media screen 
+  and (max-device-width: 1366px)   
+  and (min-device-width: 1366px) 
+  and (orientation: landscape)
+  {
+     img{
+      height: 10vh;
+    width: 24vw;
+     }
+     p{
+      font-size: 3.8rem;
+     }
+  }
 
 
 
