@@ -33,16 +33,18 @@ p {
   align-items: center;
   justify-content: center;
 }
-input {
+.text {
   font-family: "Poppins";
   font-size: 2rem;
   font-weight: 400;
   height: 7vh;
   width: 26vw;
   border-radius: 15px;
-  padding: 12px 20px;
-  border: 0px;
+  padding: 5px 20px;
   background-color: #34ce8b;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 .foot {
   width: 100%;
@@ -71,7 +73,7 @@ footer {
     margin-top: 3rem;
   }
 
-  input {
+  .text{
     font-size: 1.7rem;
     height: 6vh;
     width: 44vw;
@@ -100,7 +102,7 @@ footer {
     font-size: 4rem;
     width: 88vw;
   }
-  input {
+  .text {
     width: 34vw;
   }
 }
@@ -139,7 +141,7 @@ p{
   font-size: 3.5rem;
   margin-top: 3rem;
 }
-input{
+.text{
   margin-top: 0rem;
   font-size: 1.5rem;
 }
