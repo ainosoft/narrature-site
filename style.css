@@ -204,3 +204,23 @@ footer{
     font-size: 1.1rem;
   }
 }
+
+@media only screen and (max-width: 275px) {
+  img {
+    height: 5vh;
+   
+}
+ 
+  p{
+    font-size: 1.5rem;
+  }
+  .text{
+    width: 48vw;
+    font-size: 1.2rem;
+    height: 6vh;
+}
+  
+  footer{
+    font-size: 1.0rem;
+  }
+}
