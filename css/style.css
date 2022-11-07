@@ -151,3 +151,21 @@ footer{
 }
 }
 
+@media only screen and (max-width: 770px) {
+  img {
+    height: 8vh;
+    width: 39vw;
+  }
+  p{
+    font-size: 3rem;
+    width: 69vw;
+  }
+  .text{
+    width: 35vw;
+    font-size: 1.7rem;
+  }
+  footer{
+    font-size: 1.3rem;
+  }
+  
+}
