@@ -30,8 +30,8 @@ p {
 .email {
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  
 }
 .text {
   font-family: "Poppins";
@@ -43,8 +43,9 @@ p {
   padding: 5px 20px;
   background-color: #34ce8b;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: left;
+  
 }
 .foot {
   width: 100%;
@@ -149,3 +150,4 @@ footer{
   font-size: 1.3rem;
 }
 }
+
