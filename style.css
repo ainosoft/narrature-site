@@ -169,3 +169,38 @@ footer{
   }
   
 }
+
+@media only screen and (max-width: 500px) {
+  img {
+    height: 7vh;
+    width: 51vw;
+  }
+  p{
+    font-size: 2.5rem;
+  }
+  .text{
+    width: 50vw;
+    font-size: 1.5rem;
+  }
+  footer{
+    font-size: 1.2rem;
+  }
+  
+}
+@media only screen and (max-width: 340px) {
+  img {
+    height: 6vh;
+    width: 57vw;
+}
+ 
+  p{
+    font-size: 1.7rem;
+  }
+  .text{
+    width: 48vw;
+    font-size: 1.3rem;
+  }
+  footer{
+    font-size: 1.1rem;
+  }
+}
