@@ -390,21 +390,7 @@ footer {
   font-size: 1.7rem;
   font-weight: 500;
 }
-/* (720x1280) WXGA */
-@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
-  p {
-    font-size: 4rem;
-  }
 
-}
-
-/* (720x1280) , Landscape */
-@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
-  p {
-    font-size: 4rem;
-  }
-
-}
 
 
 
@@ -478,10 +464,6 @@ footer {
 
 
 
-
-
-
-
 /* Portrait */
 @media only screen 
   and (min-width: 1024px) 
@@ -532,7 +514,21 @@ footer{
   bottom: 2rem;;
 } */
 }
+/* (720x1280) WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+  p {
+    font-size: 4rem;
+  }
 
+}
+
+/* (720x1280) , Landscape */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+  p {
+    font-size: 4rem;
+  }
+
+}
 
 @media only screen and (max-width: 770px) {
   img {
